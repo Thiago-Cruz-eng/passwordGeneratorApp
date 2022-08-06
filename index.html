@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Generator</title>
+</head>
+<body>
+  <div class="pw-container">
+
+    <div class="pw-header">
+      <div class="pw" id="pw">
+        <span id="id"> </span>
+        <button id="copy">Copy to clipboard</button>
+        
+      </div>
+    </div>
+
+    <div class="pw-body">
+      
+      <div class="form-control">
+        <label for="length">Password length</label>
+        <input id="len" type="number" min="7" max="20">
+      </div>
+
+      <div class="form-control">
+        <label for="upper">Contain upper case letters</label>
+        <input id="upper" type="checkbox">
+      </div>
+      
+      <div class="form-control">
+        <label for="lower">Contain lower case letters</label>
+        <input id="lower" type="checkbox">
+      </div>
+
+      <div class="form-control">
+        <label for="number">Contain number case letters</label>
+        <input id="number" type="checkbox">
+      </div>
+
+      <div class="form-control">
+        <label for="symbol">Contain symbol case letters</label>
+        <input id="symbol" type="checkbox">
+      </div>
+
+      <button id="generate" class="generate">
+        DO IT!
+      </button>
+      
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
